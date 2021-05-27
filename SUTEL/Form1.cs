@@ -45,5 +45,11 @@ namespace SUTEL
             
 
         }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            txtNumero.Text = "";
+            nudMins.Value = 0;
+        }
     }
 }
